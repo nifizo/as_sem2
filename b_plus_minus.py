@@ -73,15 +73,3 @@ class BPlusMinusNode:
 
 
 
-tree = BPlusMinusTree(5)
-tree.insert(5)
-tree.insert(10)
-tree.insert(3)
-tree.insert(3.5)
-tree.insert(-3.5)
-
-print(tree.search(5))
-print(tree.search(8))
-print(tree.search(3.5))
-print(tree.search(-3.5))
-

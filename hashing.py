@@ -56,9 +56,4 @@ class PerfectHash:
         return hash_value
 
 
-keys = [Fraction(1, 2), Fraction(3, 4), Fraction(2, 3), Fraction(5, 7), Fraction(4, 9)]
-hash_table = PerfectHash(keys)
-print(hash_table.get(Fraction(2, 3)))
-print(hash_table.get(Fraction(5, 7)))
-print(hash_table.get(Fraction(4, 9)))
-print(hash_table.get(Fraction(1, 2)))
+

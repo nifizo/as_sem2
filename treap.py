@@ -78,13 +78,3 @@ class Treap:
             return self._search(node.right, key)
 
 
-treap = Treap()
-treap.insert(5)
-treap.insert(10)
-treap.insert(3)
-
-print(treap.search(5))
-print(treap.search(8))
-
-treap.delete(5)
-print(treap.search(5))
